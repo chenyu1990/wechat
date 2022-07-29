@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	userInfoURL     = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=%s&openid=%s&lang=zh_CN"
+	userInfoURL     = "https://api.weixin.qq.com/sns/userinfo?access_token=%s&openid=%s&lang=zh_CN"
 	updateRemarkURL = "https://api.weixin.qq.com/cgi-bin/user/info/updateremark?access_token=%s"
 	userListURL     = "https://api.weixin.qq.com/cgi-bin/user/get"
 )
